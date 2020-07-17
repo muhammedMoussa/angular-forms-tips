@@ -1,6 +1,11 @@
 {
   "name": "angular-forms-tips",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": {
+    "email": "muhammedmoussa@hotmail.com",
+    "name": "Muhammed Moussa",
+    "url": "http://muhammedmoussa.github.io/"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
