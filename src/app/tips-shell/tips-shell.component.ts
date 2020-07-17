@@ -1,16 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-tips-shell',
   templateUrl: './tips-shell.component.html',
-  styles: [
-  ]
+  styles: []
 })
-export class TipsShellComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class TipsShellComponent {
 
 }
