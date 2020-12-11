@@ -6,5 +6,7 @@ import {Component} from '@angular/core';
   styles: []
 })
 export class TipsShellComponent {
-
+  onFBSubmit(e) {
+    console.log(e)
+  }
 }

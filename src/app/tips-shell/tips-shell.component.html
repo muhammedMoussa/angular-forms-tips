@@ -1,11 +1,14 @@
-<div class="p-10 w-full">
-    <p class="font-bold text-3xl mb-2">Observable Based Form</p>
-    <div class="m-2">
-        <app-observable-form></app-observable-form>
-    </div>
-    <!-- @TODO: ANOTHER POST -->
-    <!-- <p class="font-bold text-3xl mb-2">Functional Based Form</p>
-    <div class="m-2">
-        <app-functional-form></app-functional-form>
-    </div> -->
+<div class="p-10 w-full flex">
+    <section class="w-1/2">
+        <p class="font-bold text-3xl mb-2">Observable Based Form</p>
+        <div class="m-2">
+            <app-observable-form></app-observable-form>
+        </div>
+    </section>
+    <section class="w-1/2">
+        <p class="font-bold text-3xl mb-2">Functional Based Form</p>
+        <div class="m-2">
+            <app-functional-form (submit)="onFBSubmit($event)"></app-functional-form>
+        </div>
+    </section>
 </div>
